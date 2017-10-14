@@ -26,7 +26,13 @@
     <!-- Custom styles for this template -->
     <link href="css/new-age.min.css" rel="stylesheet">
 
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="../Font-Awesome/css/font-awesome.min.css">
+
+    <!-- Extra fancy code blocks -->
+    <link rel="stylesheet" href="./highlight.js/styles/default.css">
+    <script src="./highlight.js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
 
   </head>
@@ -50,7 +56,10 @@
               <a class="nav-link js-scroll-trigger" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Examples</a>
+              <a class="nav-link js-scroll-trigger" href="#examples">Examples</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#installation">Installation</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#docs">Docs</a>
@@ -161,13 +170,117 @@
       </div>
     </section>
 
+    <section class="bg-primary" id="examples">
+      <div class="container">
+        <h2>Here are some examples to get you started.</h2>
+
+        JavaScript
+        <pre><code class="js">
+          var tools = require( "./fos.js" )
+
+          var fos = new tools.FOS();
+
+          var vectorized_X = new tools.VectorDouble();
+
+          var n = 20;
+          var p = 50;
+
+          for ( i = 0; i < n * p ; i++ ) {
+              vectorized_X.push_back( Math.random() );
+          }
+
+          var Y = new tools.VectorDouble();
+
+          for ( i = 0; i < n * 1 ; i++ ) {
+              Y.push_back( Math.random() );
+          }
+
+          fos.Run( vectorized_X, Y, "cd" )
+
+          var coefs = fos.ReturnCoefficients();
+          var intercept = fos.ReturnIntercept();
+
+          console.log( "Intercept: ", intercept );
+          console.log( "Beta Vector:" );
+
+          for ( i = 0; i < coefs.size() ; i++ ) {
+              console.log( coefs.get(i) );
+          }
+        </code></pre>
+
+      </div>
+    </section>
+
+    <section id="installation">
+      <div class="container">
+        <h2>Installation</h2>
+
+        <div id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="card">
+            <div class="card-header" role="tab" id="headingOne">
+              <h5 class="mb-0">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Linux
+                </a>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+              <div class="card-block">
+
+                Before getting started make sure you have all the dependencies you'll need.
+
+                <ul class="list-group"> Title
+                  <li class="list-group-item">Cras justo odio</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                  <li class="list-group-item">Morbi leo risus</li>
+                  <li class="list-group-item">Porta ac consectetur ac</li>
+                  <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" role="tab" id="headingTwo">
+              <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Mac
+                </a>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="card-block">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" role="tab" id="headingThree">
+              <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Windows
+                </a>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="card-block">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
     <section class="cta" id="docs">
       <div class="cta-content">
         <div class="container">
           <h2>Want to dig deeper? Check out our docs!</h2>
           <p class="text-muted">We provide documentation for both the native C++ code base that makes up
           the core of the HDIM package, and the mathematical theory that our algorithms rely on.</p>
-          <!-- <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a> -->
+
           <a href="./docs/code/index.html" class="btn btn-outline btn-xl">Go to the code docs.</a>
           <a href="./docs/theory/index.html" class="btn btn-outline btn-xl">Go to the theory docs.</a>
         </div>
@@ -177,7 +290,7 @@
 
     <section class="contact bg-primary" id="contact">
       <div class="container">
-        <h2>Visit our research group's main site.</h2>
+        <h2>Check out our research group's main site for more interesting projects!</h2>
 
           <div class="badges">
             <a class="badge-link" href="https://lederer.stat.washington.edu/"><img src="img/W-Logo_Purple_RGB.png" alt="" width="10%" height="10%"></a>
@@ -213,6 +326,14 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/new-age.min.js"></script>
+
+    <script>
+    $('.collapse').on('shown.bs.collapse', function(){
+    $(this).parent().find(".glyphicon-plus").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+    }).on('hidden.bs.collapse', function(){
+    $(this).parent().find(".glyphicon-minus").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+    });
+    </script>
 
   </body>
 
