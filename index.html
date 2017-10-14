@@ -174,6 +174,86 @@
       <div class="container">
         <h2>Here are some examples to get you started.</h2>
 
+        C++
+        <pre><code class="C++">
+          #include < eigen3/Eigen/Dense >
+          #include "x_fos.hpp"
+
+          int main(int argc, char *argv[]) {
+
+              (void)argc;
+              (void)argv;
+
+              unsigned int N = 200; // Number of observations
+              unsigned int P = 500; // Number of variables
+
+              // Generate a random 'data' matrix
+              Eigen::Matrix< double, Eigen::Dynamic, Eigen::Dynamic > X =
+              Eigen::Matrix< double, Eigen::Dynamic, Eigen::Dynamic >::Random( N , P );
+
+              // Generate a random 'predictors' vector
+              Eigen::Matrix< double, Eigen::Dynamic, 1 > Y =
+              Eigen::Matrix< double, Eigen::Dynamic, 1 >::Random( N, 1 );
+
+              // Initialize the FOS functor
+              hdim::X_FOS<double> fos;
+
+              // Run the FOS algorithm using the data matrix and vector of predictors.
+              // The third arguement is the type of iterative solver that we want to
+              // use, in this cas Coordinate Descent ( CD )
+              fos( X, Y, hdim::SolverType::cd );
+
+              // Return the computed regression coefficients
+              Eigen::Matrix< T, Eigen::Dynamic, 1 > fos_fit = fos.ReturnCoefficients();
+
+              // Return the intercept term
+              double intercept = fos.ReturnIntercept();
+
+              std::cout << "Intercept: " << intercept << "\n Coefficients: " << fos_fit << std::endl;
+
+          }
+        </code></pre>
+
+        R
+        <pre><code class="r">
+          library(HDIM)
+
+          dataset <- matrix(rexp(200, rate=.1), ncol=20)
+
+          yinput <- dataset[, 1, drop = FALSE]
+          xinput <- dataset[, names(dataset) != names(yinput)]
+
+          fos_fit <- HDIM::FOS( as.matrix(xinput), as.matrix(yinput), "fista" )
+
+        </code></pre>
+
+        Python
+        <pre><code class="python">
+          import hdim
+          import test_data_gen
+          import numpy as np
+          import math
+
+          def test_X_FOS( X, Y, solver_type ):
+          	fos_test = hdim.X_FOS_d()
+
+          	fos_test( X, Y, solver_type )
+          	return fos_test.ReturnCoefficients()
+
+          def main():
+          	N = 200 # Number of observations
+          	P = 500 # Number of variables
+
+          	ind = np.arange(P)  # the x locations for the groups
+
+          	X, y, beta = test_data_gen.generate_data( N, P, int( math.ceil(P/10) ), 0.3, 5 )
+
+          	fos_cd_results = test_X_FOS( X, y, hdim.SolverType_cd )
+
+          if __name__ == "__main__":
+              main()
+        </code></pre>
+
         JavaScript
         <pre><code class="js">
           var tools = require( "./fos.js" )
