@@ -223,32 +223,34 @@
           yinput <- dataset[, 1, drop = FALSE]
           xinput <- dataset[, names(dataset) != names(yinput)]
 
-          fos_fit <- HDIM::FOS( as.matrix(xinput), as.matrix(yinput), "fista" )
+          fos_fit <- HDIM::FOS( as.matrix(xinput), as.matrix(yinput), "cd" )
 
         </code></pre>
 
         Python
         <pre><code class="python">
           import hdim
-          import test_data_gen
           import numpy as np
-          import math
-
-          def test_X_FOS( X, Y, solver_type ):
-          	fos_test = hdim.X_FOS_d()
-
-          	fos_test( X, Y, solver_type )
-          	return fos_test.ReturnCoefficients()
 
           def main():
           	N = 200 # Number of observations
           	P = 500 # Number of variables
 
-          	ind = np.arange(P)  # the x locations for the groups
+            # Generate synthetic data matrix
+            X = np.random.rand( 200, 500 )
+            # Use first column of data matrix as vector of predictors
+            Y = X[:,0]
 
-          	X, y, beta = test_data_gen.generate_data( N, P, int( math.ceil(P/10) ), 0.3, 5 )
+            # Initialize FOS functor
+            fos_test = hdim.X_FOS_d()
 
-          	fos_cd_results = test_X_FOS( X, y, hdim.SolverType_cd )
+            # Run the FOS Algorithm using the data matrix and vector of predictors
+            # The third function argument is the type of th iterative solver used
+            # in this case Coordinate Descent ( CD )
+            fos_test( X, Y, hdim.SolverType_cd )
+
+            fos_fit = fos_test.ReturnCoefficients() # Get the computed coefficients
+            intercept = fos_test.ReturnIntercept() # And the intercept
 
           if __name__ == "__main__":
               main()
@@ -382,17 +384,6 @@
     <footer>
       <div class="container">
         <p>Produced by the Lederer and Hauser HDIM group.</p>
-        <ul class="list-inline">
-          <li class="list-inline-item">
-            <a href="#">Privacy</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">Terms</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">FAQ</a>
-          </li>
-        </ul>
       </div>
     </footer>
 
@@ -406,14 +397,6 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/new-age.min.js"></script>
-
-    <script>
-    $('.collapse').on('shown.bs.collapse', function(){
-    $(this).parent().find(".glyphicon-plus").removeClass("glyphicon-plus").addClass("glyphicon-minus");
-    }).on('hidden.bs.collapse', function(){
-    $(this).parent().find(".glyphicon-minus").removeClass("glyphicon-minus").addClass("glyphicon-plus");
-    });
-    </script>
 
   </body>
 
