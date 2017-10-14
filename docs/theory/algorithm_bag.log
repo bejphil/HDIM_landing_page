@@ -1,0 +1,1397 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.22)  3 OCT 2017 20:36
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCo
+de"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.
+{\g@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\
+documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname
+ tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{
+\HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode .a.b.c.\input  ../algorithm
+_bag.tex
+(../algorithm_bag.tex (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/generic/tex4ht/tex4ht.sty
+version 2008-10-27-17:23
+Package: tex4ht 
+--------------------------------------
+--- Note --- for _ at preamble, use the command line option `early_'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ at preamble, use the command line option `early^'
+--------------------------------------
+\tmp:toks=\toks14
+)
+(/usr/share/texmf/tex/generic/tex4ht/usepackage.4ht
+version 2009-05-21-09:32
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen111
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen112
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks18
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks19
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count102
+\float@exts=\toks22
+\float@box=\box28
+\@float@everytoks=\toks23
+\@floatcapt=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks24
+\c@algorithm=\count103
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+))
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count104
+\c@ALG@rem=\count105
+\c@ALG@nested=\count106
+\ALG@tlm=\skip46
+\ALG@thistlm=\skip47
+\c@ALG@Lnr=\count107
+\c@ALG@blocknr=\count108
+\c@ALG@storecount=\count109
+\c@ALG@tmpcounter=\count110
+\ALG@tmplength=\skip48
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen122
+\pgfutil@tempdimb=\dimen123
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box30
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen124
+\pgf@y=\dimen125
+\pgf@xa=\dimen126
+\pgf@ya=\dimen127
+\pgf@xb=\dimen128
+\pgf@yb=\dimen129
+\pgf@xc=\dimen130
+\pgf@yc=\dimen131
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count111
+\c@pgf@countb=\count112
+\c@pgf@countc=\count113
+\c@pgf@countd=\count114
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-tex4ht.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-tex4ht.def
+File: pgfsys-tex4ht.def 2013/08/06  (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-svg.de
+f
+File: pgfsys-common-svg.def 2013/08/28  (rcs-revision 1.24)
+\pgf@sys@svg@objectcount=\count115
+\pgf@sys@svg@scopecount=\count116
+)
+\pgf@sys@svg@picnum=\count117
+\pgf@sys@svg@nodenum=\count118
+\pgfsys@foreignobject@Box=\box31
+\pgf@s=\dimen132
+\pgf@t=\dimen133
+ (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count119
+\pgfsyssoftpath@bigbuffer@items=\count120
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen134
+\pgfmath@count=\count121
+\pgfmath@box=\box32
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count122
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen135
+\pgf@picmaxx=\dimen136
+\pgf@picminy=\dimen137
+\pgf@picmaxy=\dimen138
+\pgf@pathminx=\dimen139
+\pgf@pathmaxx=\dimen140
+\pgf@pathminy=\dimen141
+\pgf@pathmaxy=\dimen142
+\pgf@xx=\dimen143
+\pgf@xy=\dimen144
+\pgf@yx=\dimen145
+\pgf@yy=\dimen146
+\pgf@zx=\dimen147
+\pgf@zy=\dimen148
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen149
+\pgf@path@lasty=\dimen150
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen151
+\pgf@shorten@start@additional=\dimen152
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box33
+\pgf@hbox=\box34
+\pgf@layerbox@main=\box35
+\pgf@picture@serial@count=\count123
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen153
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen154
+\pgf@pt@y=\dimen155
+\pgf@pt@temp=\dimen156
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen157
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen158
+\pgf@sys@shading@range@num=\count124
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box36
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box37
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen159
+\pgf@nodesepend=\dimen160
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen161
+\pgffor@skip=\dimen162
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count125
+\pgfplotmarksize=\dimen163
+)
+\tikz@lastx=\dimen164
+\tikz@lasty=\dimen165
+\tikz@lastxsaved=\dimen166
+\tikz@lastysaved=\dimen167
+\tikzleveldistance=\dimen168
+\tikzsiblingdistance=\dimen169
+\tikz@figbox=\box38
+\tikz@figbox@bg=\box39
+\tikz@tempbox=\box40
+\tikz@tempbox@bg=\box41
+\tikztreelevel=\count126
+\tikznumberofchildren=\count127
+\tikznumberofcurrentchild=\count128
+\tikz@fig@count=\count129
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count130
+\pgfmatrixcurrentcolumn=\count131
+\pgf@matrix@numberofcolumns=\count132
+)
+\tikz@expandcount=\count133
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texmf/tex/latex/hdim-algo/hdim_macros.sty
+
+LaTeX Warning: You have requested package `hdim_macros',
+               but the package provides `hdim_algo'.
+
+Package: hdim_algo 2017/4/29 v1.0.0 Tweaks for pseudo-code produced in HDIM-doc
+s
+) (/usr/share/texmf/tex/generic/tex4ht/tex4ht.4ht
+version 2009-01-07-07:11
+--------------------------------------
+--- Note --- for additional information, use the command line option `info'
+--------------------------------------
+
+::::::::::::::::::::::::::::::::::::::::::
+ TeX4ht info is available in the log file 
+::::::::::::::::::::::::::::::::::::::::::
+) (/usr/share/texmf/tex/generic/tex4ht/tex4ht.sty
+version 2008-10-27-17:23
+
+--- needs --- tex4ht algorithm_bag ---
+\tmp:cnt=\count134
+\openout15 = `algorithm_bag.tmp'.
+
+(./algorithm_bag.tmp)
+\tmp:dim=\skip49
+--------------------------------------
+--- Note --- for XML code, use the command line option `xml' or `xhtml'
+--------------------------------------
+ (./algorithm_bag.xref)
+\:refout=\write4
+\openout4 = `algorithm_bag.xref'.
+
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- to remove the <?xml version=...?> processing instruction use the c
+ommand line option `no-VERSION'
+--------------------------------------
+--------------------------------------
+--- Note --- to remove the DOCTYPE declaration use the command line option `no-
+DOCTYPE'
+--------------------------------------
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+)
+--------------------------------------
+--- Note --- for marking of the base font, use the command line option `fonts+'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for non active _, use the command line option `no_'
+--------------------------------------
+--------------------------------------
+--- Note --- for _ of catcode 13, use the command line option `_13'
+--------------------------------------
+--------------------------------------
+--- Note --- for non active ^, use the command line option `no^'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ of catcode 13, use the command line option `^13'
+--------------------------------------
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- for alternative charset, use the command line option `charset=...'
+
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS font decoration, use the `NoFonts' command line opti
+on
+--------------------------------------
+--------------------------------------
+--- Note --- for jpg bitmaps of pictures, use the `jpg' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for gif bitmaps of pictures, use the `gif' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for content and toc in 2 frames, use the command line option `fram
+es'
+--------------------------------------
+--------------------------------------
+--- Note --- for content, toc, and footnotes in 3 frames, use the command line 
+option `frames-fn'
+--------------------------------------
+--------------------------------------
+--- Note --- for file extension name xht, use the command line option `xht'
+--------------------------------------
+TeX4ht package options: html
+--------------------------------------
+--- Note --- to ignore CSS code, use the command line option `-css
+--------------------------------------
+--------------------------------------
+--- Note --- for inline CSS code, use the command line option `css-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for pop ups on mouse over, use the command line option `mouseover'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for addressing images in a subdirectory, use the command line opti
+on `imgdir:.../'
+--------------------------------------
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+)
+\:tokwrite=\toks37
+\:tokpage=\toks38
+--------------------------------------
+--- Note --- for back links to toc, use the command line option `sections+'
+--------------------------------------
+--------------------------------------
+--- Note --- for linear crosslinks of pages, use the command line option `next'
+
+--------------------------------------
+\openout15 = `algorithm_bag.4ct'.
+
+\:tocout=\write5
+\openout5 = `algorithm_bag.4tc'.
+
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/latex.4ht
+version 2009-05-21-09:32
+--------------------------------------
+--- Note --- for links into captions, instead of float heads, use the command l
+ine option `refcaption'
+--------------------------------------
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- For mini tocs immediately aftter the header use the command line o
+ption `minitoc<'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements with valued data, use the command lin
+e option `enumerate+'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements li's with value attributes, use the c
+ommand line option `enumerate-'
+--------------------------------------
+--------------------------------------
+--- Note --- for CSS2 code, use the command line option `css2'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial tabular, use the command line option `pic-tabular'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap fbox'es, use the command line option `pic-fbox'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap framebox'es, use the command line option `pic-framebox'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for inline footnotes use command line option `fn-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for tracing of latex font commands, use the command line option `f
+onts'
+--------------------------------------
+--------------------------------------
+--- Note --- for width specifications of tabular p entries, use the `p-width' c
+ommand line option or a configuration similar to \Configure{HColWidth}{\HCode{ 
+style="width:\HColWidth"}}
+--------------------------------------
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- for pictorial eqnarray, use the command line option `pic-eqnarray'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial array, use the command line option `pic-array'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial $...$ environments, use the command line option `pic
+-m' (not recommended!!)
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial $...$ and $$...$$ environments with latex alt, use t
+he command line option `pic-m+' (not safe!!)
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial array, use the command line option `pic-array'
+--------------------------------------
+))
+(/usr/share/texmf/tex/generic/tex4ht/fontmath.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/article.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- for automatic sectioning pagination, use the command line option `
+1', `2', `3', '4', '5', '6', or '7'
+--------------------------------------
+--------------------------------------
+--- Note --- for files named derived from section titles, use the command line 
+option `sec-filename'
+--------------------------------------
+--------------------------------------
+--- Note --- for i-columns index, use the command line option `index=i' (e.g., 
+index=2)
+--------------------------------------
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/amsmath.4ht
+version 2009-05-21-09:32
+\tmp:muskip=\muskip11
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/amstext.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/amsbsy.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/amsopn.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/amssymb.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/amsfonts.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/algorithm.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/float.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/ifthen.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/graphicx.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/graphics.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+--------------------------------------
+--- Note --- if included graphics are of degraded quality, try the command line
+ options `graphics-num' or `graphics-'. The `num' should provide the density of
+ pixels in the bitmaps (e.g., 110). 
+--------------------------------------
+--------------------------------------
+--- Note --- for key dimensions try the option `Gin-dim'; for key dimensions wh
+en bounding box is unavailable try `Gin-dim+'; neither is recommended
+--------------------------------------
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/dvips.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/algorithmicx.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/pgf.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/everyshi.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/xcolor.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/color.4ht
+version 2009-05-21-09:32
+
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+))
+(/usr/share/texmf/tex/generic/tex4ht/color.4ht
+version 2009-05-21-09:32
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
+version 2009-05-18-23:01
+)
+(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
+version 2009-05-18-23:01
+)) (./algorithm_bag.aux)
+\openout1 = `algorithm_bag.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+--- file algorithm_bag.css ---
+[1
+
+] [2
+
+]
+
+Package pgf Warning: Your graphic driver pgfsys-tex4ht.def does not support mar
+king the current position. This warning is given only once on input line 40.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+esint on input line 41.
+
+(/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+)
+l. 41 Writing algorithm_bag.idv[1] (algorithm_bag0x.png)
+l. 42 Writing algorithm_bag.idv[2] (algorithm_bag1x.png)
+l. 43 Writing algorithm_bag.idv[3] (algorithm_bag2x.png)
+l. 44 Writing algorithm_bag.idv[4] (algorithm_bag3x.png)
+l. 46 Writing algorithm_bag.idv[5] (algorithm_bag4x.png)
+l. 47 Writing algorithm_bag.idv[6] (algorithm_bag5x.png)
+l. 49 Writing algorithm_bag.idv[7] (algorithm_bag6x.png)
+l. 50 Writing algorithm_bag.idv[8] (algorithm_bag7x.png)
+l. 50 Writing algorithm_bag.idv[9] (algorithm_bag8x.png)
+l. 50 Writing algorithm_bag.idv[10] (algorithm_bag9x.png)
+l. 51 Writing algorithm_bag.idv[11] (algorithm_bag10x.png)
+l. 51 Writing algorithm_bag.idv[12] (algorithm_bag11x.png)
+l. 51 Writing algorithm_bag.idv[13] (algorithm_bag12x.png)
+ [3
+
+] [4
+
+] [5
+
+]
+l. 63 Writing algorithm_bag.idv[14] (algorithm_bag13x.png)
+l. 64 Writing algorithm_bag.idv[15] (algorithm_bag14x.png)
+l. 65 Writing algorithm_bag.idv[16] (algorithm_bag15x.png)
+l. 66 Writing algorithm_bag.idv[17] (algorithm_bag16x.png)
+l. 67 Writing algorithm_bag.idv[18] (algorithm_bag17x.png)
+ [6
+
+]
+[7
+
+] [8
+
+]
+l. 79 Writing algorithm_bag.idv[19] (algorithm_bag18x.png)
+l. 80 Writing algorithm_bag.idv[20] (algorithm_bag19x.png)
+l. 81 Writing algorithm_bag.idv[21] (algorithm_bag20x.png)
+ [9
+
+] [10
+
+] [11
+
+]
+l. 90 Writing algorithm_bag.idv[22] (algorithm_bag21x.png)
+l. 94 Writing algorithm_bag.idv[23] (algorithm_bag22x.png)
+l. 95 Writing algorithm_bag.idv[24] (algorithm_bag23x.png)
+l. 96 Writing algorithm_bag.idv[25] (algorithm_bag24x.png)
+l. 97 Writing algorithm_bag.idv[26] (algorithm_bag25x.png)
+l. 98 Writing algorithm_bag.idv[27] (algorithm_bag26x.png)
+l. 104 Writing algorithm_bag.idv[28] (algorithm_bag27x.png)
+ [12
+
+] [13
+
+] [14
+
+]
+l. 116 Writing algorithm_bag.idv[29] (algorithm_bag28x.png)
+l. 117 Writing algorithm_bag.idv[30] (algorithm_bag29x.png)
+l. 118 Writing algorithm_bag.idv[31] (algorithm_bag30x.png)
+l. 118 Writing algorithm_bag.idv[32] (algorithm_bag31x.png)
+l. 119 Writing algorithm_bag.idv[33] (algorithm_bag32x.png)
+l. 119 Writing algorithm_bag.idv[34] (algorithm_bag33x.png)
+l. 120 Writing algorithm_bag.idv[35] (algorithm_bag34x.png)
+l. 120 Writing algorithm_bag.idv[36] (algorithm_bag35x.png)
+l. 120 Writing algorithm_bag.idv[37] (algorithm_bag36x.png)
+l. 123 Writing algorithm_bag.idv[38] (algorithm_bag37x.png)
+ [15
+
+] [16
+
+] [17
+
+]
+l. 133 Writing algorithm_bag.idv[39] (algorithm_bag38x.png)
+l. 134 Writing algorithm_bag.idv[40] (algorithm_bag39x.png)
+l. 135 Writing algorithm_bag.idv[41] (algorithm_bag40x.png)
+l. 136 Writing algorithm_bag.idv[42] (algorithm_bag41x.png)
+l. 137 Writing algorithm_bag.idv[43] (algorithm_bag42x.png)
+l. 138 Writing algorithm_bag.idv[44] (algorithm_bag43x.png)
+l. 139 Writing algorithm_bag.idv[45] (algorithm_bag44x.png)
+l. 140 Writing algorithm_bag.idv[46] (algorithm_bag45x.png)
+l. 140 Writing algorithm_bag.idv[47] (algorithm_bag46x.png)
+l. 142 Writing algorithm_bag.idv[48] (algorithm_bag47x.png)
+l. 142 Writing algorithm_bag.idv[49] (algorithm_bag48x.png)
+l. 142 Writing algorithm_bag.idv[50] (algorithm_bag49x.png)
+l. 143 Writing algorithm_bag.idv[51] (algorithm_bag50x.png)
+l. 143 Writing algorithm_bag.idv[52] (algorithm_bag51x.png)
+l. 143 Writing algorithm_bag.idv[53] (algorithm_bag52x.png)
+l. 145 Writing algorithm_bag.idv[54] (algorithm_bag53x.png)
+l. 145 Writing algorithm_bag.idv[55] (algorithm_bag54x.png)
+l. 147 Writing algorithm_bag.idv[56] (algorithm_bag55x.png)
+l. 147 Writing algorithm_bag.idv[57] (algorithm_bag56x.png)
+ [18
+
+] [19] [20
+
+] [21
+
+]
+l. 160 Writing algorithm_bag.idv[58] (algorithm_bag57x.png)
+l. 161 Writing algorithm_bag.idv[59] (algorithm_bag58x.png)
+l. 162 Writing algorithm_bag.idv[60] (algorithm_bag59x.png)
+l. 163 Writing algorithm_bag.idv[61] (algorithm_bag60x.png)
+l. 164 Writing algorithm_bag.idv[62] (algorithm_bag61x.png)
+l. 165 Writing algorithm_bag.idv[63] (algorithm_bag62x.png)
+l. 165 Writing algorithm_bag.idv[64] (algorithm_bag63x.png)
+l. 168 Writing algorithm_bag.idv[65] (algorithm_bag64x.png)
+l. 168 Writing algorithm_bag.idv[66] (algorithm_bag65x.png)
+l. 169 Writing algorithm_bag.idv[67] (algorithm_bag66x.png)
+l. 170 Writing algorithm_bag.idv[68] (algorithm_bag67x.png)
+l. 170 Writing algorithm_bag.idv[69] (algorithm_bag68x.png)
+l. 170 Writing algorithm_bag.idv[70] (algorithm_bag69x.png)
+l. 171 Writing algorithm_bag.idv[71] (algorithm_bag70x.png)
+l. 171 Writing algorithm_bag.idv[72] (algorithm_bag71x.png)
+l. 172 Writing algorithm_bag.idv[73] (algorithm_bag72x.png)
+l. 172 Writing algorithm_bag.idv[74] (algorithm_bag73x.png)
+l. 172 Writing algorithm_bag.idv[75] (algorithm_bag74x.png)
+l. 174 Writing algorithm_bag.idv[76] (algorithm_bag75x.png)
+
+[22
+
+]
+l. 176 Writing algorithm_bag.idv[77] (algorithm_bag76x.png)
+ [23] [24
+
+] [25
+
+]
+l. 186 Writing algorithm_bag.idv[78] (algorithm_bag77x.png)
+l. 187 Writing algorithm_bag.idv[79] (algorithm_bag78x.png)
+l. 188 Writing algorithm_bag.idv[80] (algorithm_bag79x.png)
+l. 189 Writing algorithm_bag.idv[81] (algorithm_bag80x.png)
+l. 190 Writing algorithm_bag.idv[82] (algorithm_bag81x.png)
+l. 191 Writing algorithm_bag.idv[83] (algorithm_bag82x.png)
+l. 191 Writing algorithm_bag.idv[84] (algorithm_bag83x.png)
+l. 192 Writing algorithm_bag.idv[85] (algorithm_bag84x.png)
+l. 192 Writing algorithm_bag.idv[86] (algorithm_bag85x.png)
+l. 195 Writing algorithm_bag.idv[87] (algorithm_bag86x.png)
+l. 195 Writing algorithm_bag.idv[88] (algorithm_bag87x.png)
+l. 196 Writing algorithm_bag.idv[89] (algorithm_bag88x.png)
+l. 197 Writing algorithm_bag.idv[90] (algorithm_bag89x.png)
+l. 200 Writing algorithm_bag.idv[91] (algorithm_bag90x.png)
+l. 200 Writing algorithm_bag.idv[92] (algorithm_bag91x.png)
+l. 200 Writing algorithm_bag.idv[93] (algorithm_bag92x.png)
+l. 201 Writing algorithm_bag.idv[94] (algorithm_bag93x.png)
+l. 202 Writing algorithm_bag.idv[95] (algorithm_bag94x.png)
+ [26
+
+]
+l. 206 Writing algorithm_bag.idv[96] (algorithm_bag95x.png)
+l. 208 Writing algorithm_bag.idv[97] (algorithm_bag96x.png)
+ [27] [28
+
+] [29
+
+]
+l. 218 Writing algorithm_bag.idv[98] (algorithm_bag97x.png)
+l. 219 Writing algorithm_bag.idv[99] (algorithm_bag98x.png)
+l. 220 Writing algorithm_bag.idv[100] (algorithm_bag99x.png)
+l. 221 Writing algorithm_bag.idv[101] (algorithm_bag100x.png)
+l. 222 Writing algorithm_bag.idv[102] (algorithm_bag101x.png)
+l. 223 Writing algorithm_bag.idv[103] (algorithm_bag102x.png)
+l. 223 Writing algorithm_bag.idv[104] (algorithm_bag103x.png)
+l. 226 Writing algorithm_bag.idv[105] (algorithm_bag104x.png)
+l. 226 Writing algorithm_bag.idv[106] (algorithm_bag105x.png)
+l. 227 Writing algorithm_bag.idv[107] (algorithm_bag106x.png)
+l. 228 Writing algorithm_bag.idv[108] (algorithm_bag107x.png)
+l. 228 Writing algorithm_bag.idv[109] (algorithm_bag108x.png)
+l. 228 Writing algorithm_bag.idv[110] (algorithm_bag109x.png)
+l. 229 Writing algorithm_bag.idv[111] (algorithm_bag110x.png)
+l. 229 Writing algorithm_bag.idv[112] (algorithm_bag111x.png)
+l. 230 Writing algorithm_bag.idv[113] (algorithm_bag112x.png)
+l. 230 Writing algorithm_bag.idv[114] (algorithm_bag113x.png)
+l. 230 Writing algorithm_bag.idv[115] (algorithm_bag114x.png)
+l. 232 Writing algorithm_bag.idv[116] (algorithm_bag115x.png)
+ [30
+
+]
+l. 234 Writing algorithm_bag.idv[117] (algorithm_bag116x.png)
+ [31]
+l. 247 Writing algorithm_bag.idv[118] (algorithm_bag117x.png)
+l. 253 Writing algorithm_bag.idv[119] (algorithm_bag118x.png)
+l. 253 Writing algorithm_bag.idv[120] (algorithm_bag119x.png)
+l. 253 Writing algorithm_bag.idv[121] (algorithm_bag120x.png)
+l. 257 Writing algorithm_bag.idv[122] (algorithm_bag121x.png)
+l. 257 Writing algorithm_bag.idv[123] (algorithm_bag122x.png)
+l. 258 Writing algorithm_bag.idv[124] (algorithm_bag123x.png)
+l. 260 Writing algorithm_bag.idv[125] (algorithm_bag124x.png)
+ [32
+
+] [33
+
+]
+l. 280 Writing algorithm_bag.idv[126] (algorithm_bag125x.png)
+l. 281 Writing algorithm_bag.idv[127] (algorithm_bag126x.png)
+l. 282 Writing algorithm_bag.idv[128] (algorithm_bag127x.png)
+l. 283 Writing algorithm_bag.idv[129] (algorithm_bag128x.png)
+l. 284 Writing algorithm_bag.idv[130] (algorithm_bag129x.png)
+l. 285 Writing algorithm_bag.idv[131] (algorithm_bag130x.png)
+l. 286 Writing algorithm_bag.idv[132] (algorithm_bag131x.png)
+l. 287 Writing algorithm_bag.idv[133] (algorithm_bag132x.png)
+l. 289 Writing algorithm_bag.idv[134] (algorithm_bag133x.png)
+l. 290 Writing algorithm_bag.idv[135] (algorithm_bag134x.png)
+l. 294 Writing algorithm_bag.idv[136] (algorithm_bag135x.png)
+l. 294 Writing algorithm_bag.idv[137] (algorithm_bag136x.png)
+ [34
+
+]
+l. 297 Writing algorithm_bag.idv[138] (algorithm_bag137x.png)
+l. 297 Writing algorithm_bag.idv[139] (algorithm_bag138x.png)
+l. 297 Writing algorithm_bag.idv[140] (algorithm_bag139x.png)
+l. 298 Writing algorithm_bag.idv[141] (algorithm_bag140x.png)
+l. 298 Writing algorithm_bag.idv[142] (algorithm_bag141x.png)
+l. 299 Writing algorithm_bag.idv[143] (algorithm_bag142x.png)
+l. 300 Writing algorithm_bag.idv[144] (algorithm_bag143x.png)
+l. 300 Writing algorithm_bag.idv[145] (algorithm_bag144x.png)
+l. 300 Writing algorithm_bag.idv[146] (algorithm_bag145x.png)
+l. 302 Writing algorithm_bag.idv[147] (algorithm_bag146x.png)
+l. 304 Writing algorithm_bag.idv[148] (algorithm_bag147x.png)
+ [35] [36
+
+]
+[37
+
+]
+l. 314 Writing algorithm_bag.idv[149] (algorithm_bag148x.png)
+l. 315 Writing algorithm_bag.idv[150] (algorithm_bag149x.png)
+l. 316 Writing algorithm_bag.idv[151] (algorithm_bag150x.png)
+l. 317 Writing algorithm_bag.idv[152] (algorithm_bag151x.png)
+l. 318 Writing algorithm_bag.idv[153] (algorithm_bag152x.png)
+l. 319 Writing algorithm_bag.idv[154] (algorithm_bag153x.png)
+l. 320 Writing algorithm_bag.idv[155] (algorithm_bag154x.png)
+l. 321 Writing algorithm_bag.idv[156] (algorithm_bag155x.png)
+l. 322 Writing algorithm_bag.idv[157] (algorithm_bag156x.png)
+l. 327 Writing algorithm_bag.idv[158] (algorithm_bag157x.png)
+l. 327 Writing algorithm_bag.idv[159] (algorithm_bag158x.png)
+l. 328 Writing algorithm_bag.idv[160] (algorithm_bag159x.png)
+l. 328 Writing algorithm_bag.idv[161] (algorithm_bag160x.png)
+l. 328 Writing algorithm_bag.idv[162] (algorithm_bag161x.png)
+ [38
+
+]
+l. 330 Writing algorithm_bag.idv[163] (algorithm_bag162x.png)
+l. 330 Writing algorithm_bag.idv[164] (algorithm_bag163x.png)
+l. 333 Writing algorithm_bag.idv[165] (algorithm_bag164x.png)
+l. 333 Writing algorithm_bag.idv[166] (algorithm_bag165x.png)
+l. 334 Writing algorithm_bag.idv[167] (algorithm_bag166x.png)
+l. 335 Writing algorithm_bag.idv[168] (algorithm_bag167x.png)
+l. 335 Writing algorithm_bag.idv[169] (algorithm_bag168x.png)
+ [39] [40
+
+] [41
+
+]
+l. 348 Writing algorithm_bag.idv[170] (algorithm_bag169x.png)
+l. 349 Writing algorithm_bag.idv[171] (algorithm_bag170x.png)
+l. 350 Writing algorithm_bag.idv[172] (algorithm_bag171x.png)
+l. 352 Writing algorithm_bag.idv[173] (algorithm_bag172x.png)
+l. 353 Writing algorithm_bag.idv[174] (algorithm_bag173x.png)
+l. 354 Writing algorithm_bag.idv[175] (algorithm_bag174x.png)
+l. 356 Writing algorithm_bag.idv[176] (algorithm_bag175x.png)
+l. 356 Writing algorithm_bag.idv[177] (algorithm_bag176x.png)
+l. 357 Writing algorithm_bag.idv[178] (algorithm_bag177x.png)
+ [42
+
+] [43
+
+] [44
+
+]
+l. 370 Writing algorithm_bag.idv[179] (algorithm_bag178x.png)
+l. 371 Writing algorithm_bag.idv[180] (algorithm_bag179x.png)
+l. 372 Writing algorithm_bag.idv[181] (algorithm_bag180x.png)
+l. 373 Writing algorithm_bag.idv[182] (algorithm_bag181x.png)
+l. 374 Writing algorithm_bag.idv[183] (algorithm_bag182x.png)
+l. 375 Writing algorithm_bag.idv[184] (algorithm_bag183x.png)
+l. 380 Writing algorithm_bag.idv[185] (algorithm_bag184x.png)
+ [45
+
+] [46
+
+] [47
+
+]
+l. 394 Writing algorithm_bag.idv[186] (algorithm_bag185x.png)
+l. 395 Writing algorithm_bag.idv[187] (algorithm_bag186x.png)
+l. 396 Writing algorithm_bag.idv[188] (algorithm_bag187x.png)
+l. 397 Writing algorithm_bag.idv[189] (algorithm_bag188x.png)
+l. 398 Writing algorithm_bag.idv[190] (algorithm_bag189x.png)
+l. 399 Writing algorithm_bag.idv[191] (algorithm_bag190x.png)
+l. 402 Writing algorithm_bag.idv[192] (algorithm_bag191x.png)
+l. 402 Writing algorithm_bag.idv[193] (algorithm_bag192x.png)
+l. 402 Writing algorithm_bag.idv[194] (algorithm_bag193x.png)
+l. 402 Writing algorithm_bag.idv[195] (algorithm_bag194x.png)
+l. 403 Writing algorithm_bag.idv[196] (algorithm_bag195x.png)
+l. 403 Writing algorithm_bag.idv[197] (algorithm_bag196x.png)
+l. 403 Writing algorithm_bag.idv[198] (algorithm_bag197x.png)
+l. 403 Writing algorithm_bag.idv[199] (algorithm_bag198x.png)
+l. 404 Writing algorithm_bag.idv[200] (algorithm_bag199x.png)
+l. 405 Writing algorithm_bag.idv[201] (algorithm_bag200x.png)
+l. 408 Writing algorithm_bag.idv[202] (algorithm_bag201x.png)
+l. 408 Writing algorithm_bag.idv[203] (algorithm_bag202x.png)
+ [48
+
+]
+l. 409 Writing algorithm_bag.idv[204] (algorithm_bag203x.png)
+ [49] [50
+
+] [51
+
+]
+l. 428 Writing algorithm_bag.idv[205] (algorithm_bag204x.png)
+l. 429 Writing algorithm_bag.idv[206] (algorithm_bag205x.png)
+l. 430 Writing algorithm_bag.idv[207] (algorithm_bag206x.png)
+l. 431 Writing algorithm_bag.idv[208] (algorithm_bag207x.png)
+l. 434 Writing algorithm_bag.idv[209] (algorithm_bag208x.png)
+l. 435 Writing algorithm_bag.idv[210] (algorithm_bag209x.png)
+
+[52
+
+] [53
+
+] [54
+
+]
+l. 449 Writing algorithm_bag.idv[211] (algorithm_bag210x.png)
+l. 450 Writing algorithm_bag.idv[212] (algorithm_bag211x.png)
+l. 451 Writing algorithm_bag.idv[213] (algorithm_bag212x.png)
+l. 452 Writing algorithm_bag.idv[214] (algorithm_bag213x.png)
+l. 453 Writing algorithm_bag.idv[215] (algorithm_bag214x.png)
+l. 454 Writing algorithm_bag.idv[216] (algorithm_bag215x.png)
+l. 454 Writing algorithm_bag.idv[217] (algorithm_bag216x.png)
+l. 455 Writing algorithm_bag.idv[218] (algorithm_bag217x.png)
+l. 455 Writing algorithm_bag.idv[219] (algorithm_bag218x.png)
+l. 455 Writing algorithm_bag.idv[220] (algorithm_bag219x.png)
+l. 455 Writing algorithm_bag.idv[221] (algorithm_bag220x.png)
+ [55
+
+] [56
+
+] [57
+
+]
+l. 467 Writing algorithm_bag.idv[222] (algorithm_bag221x.png)
+l. 468 Writing algorithm_bag.idv[223] (algorithm_bag222x.png)
+l. 469 Writing algorithm_bag.idv[224] (algorithm_bag223x.png)
+l. 470 Writing algorithm_bag.idv[225] (algorithm_bag224x.png)
+ [58
+
+] [59
+
+] [60
+
+]
+l. 487 Writing algorithm_bag.idv[226] (algorithm_bag225x.png)
+l. 488 Writing algorithm_bag.idv[227] (algorithm_bag226x.png)
+l. 489 Writing algorithm_bag.idv[228] (algorithm_bag227x.png)
+l. 490 Writing algorithm_bag.idv[229] (algorithm_bag228x.png)
+l. 491 Writing algorithm_bag.idv[230] (algorithm_bag229x.png)
+l. 492 Writing algorithm_bag.idv[231] (algorithm_bag230x.png)
+l. 492 Writing algorithm_bag.idv[232] (algorithm_bag231x.png)
+l. 493 Writing algorithm_bag.idv[233] (algorithm_bag232x.png)
+l. 493 Writing algorithm_bag.idv[234] (algorithm_bag233x.png)
+l. 494 Writing algorithm_bag.idv[235] (algorithm_bag234x.png)
+l. 497 Writing algorithm_bag.idv[236] (algorithm_bag235x.png)
+l. 497 Writing algorithm_bag.idv[237] (algorithm_bag236x.png)
+l. 498 Writing algorithm_bag.idv[238] (algorithm_bag237x.png)
+l. 498 Writing algorithm_bag.idv[239] (algorithm_bag238x.png)
+l. 499 Writing algorithm_bag.idv[240] (algorithm_bag239x.png)
+l. 499 Writing algorithm_bag.idv[241] (algorithm_bag240x.png)
+ [61
+
+]
+l. 504 Writing algorithm_bag.idv[242] (algorithm_bag241x.png)
+l. 504 Writing algorithm_bag.idv[243] (algorithm_bag242x.png)
+l. 505 Writing algorithm_bag.idv[244] (algorithm_bag243x.png)
+l. 506 Writing algorithm_bag.idv[245] (algorithm_bag244x.png)
+l. 509 Writing algorithm_bag.idv[246] (algorithm_bag245x.png)
+l. 509 Writing algorithm_bag.idv[247] (algorithm_bag246x.png)
+l. 509 Writing algorithm_bag.idv[248] (algorithm_bag247x.png)
+l. 510 Writing algorithm_bag.idv[249] (algorithm_bag248x.png)
+l. 511 Writing algorithm_bag.idv[250] (algorithm_bag249x.png)
+l. 516 Writing algorithm_bag.idv[251] (algorithm_bag250x.png)
+l. 516 Writing algorithm_bag.idv[252] (algorithm_bag251x.png)
+l. 519 Writing algorithm_bag.idv[253] (algorithm_bag252x.png)
+ [62]
+l. 524 Writing algorithm_bag.idv[254] (algorithm_bag253x.png)
+ [63
+
+] [64
+
+]
+l. 534 Writing algorithm_bag.idv[255] (algorithm_bag254x.png)
+l. 535 Writing algorithm_bag.idv[256] (algorithm_bag255x.png)
+l. 538 Writing algorithm_bag.idv[257] (algorithm_bag256x.png)
+l. 542 Writing algorithm_bag.idv[258] (algorithm_bag257x.png)
+l. 542 Writing algorithm_bag.idv[259] (algorithm_bag258x.png)
+l. 542 Writing algorithm_bag.idv[260] (algorithm_bag259x.png)
+l. 542 Writing algorithm_bag.idv[261] (algorithm_bag260x.png)
+l. 543 Writing algorithm_bag.idv[262] (algorithm_bag261x.png)
+l. 543 Writing algorithm_bag.idv[263] (algorithm_bag262x.png)
+l. 543 Writing algorithm_bag.idv[264] (algorithm_bag263x.png)
+l. 543 Writing algorithm_bag.idv[265] (algorithm_bag264x.png)
+l. 544 Writing algorithm_bag.idv[266] (algorithm_bag265x.png)
+l. 544 Writing algorithm_bag.idv[267] (algorithm_bag266x.png)
+l. 544 Writing algorithm_bag.idv[268] (algorithm_bag267x.png)
+l. 545 Writing algorithm_bag.idv[269] (algorithm_bag268x.png)
+l. 552 Writing algorithm_bag.idv[270] (algorithm_bag269x.png)
+l. 553 Writing algorithm_bag.idv[271] (algorithm_bag270x.png)
+l. 553 Writing algorithm_bag.idv[272] (algorithm_bag271x.png)
+ [65
+
+] [66]
+[67
+
+] [68] (./algorithm_bag.aux) ) 
+Here is how much of TeX's memory you used:
+ 16821 strings out of 493030
+ 295833 string characters out of 6136260
+ 471208 words of memory out of 5000000
+ 19935 multiletter control sequences out of 15000+600000
+ 9610 words of font info for 39 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,7n,64p,881b,853s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on algorithm_bag.dvi (68 pages, 231376 bytes).
