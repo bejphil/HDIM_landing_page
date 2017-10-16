@@ -297,44 +297,50 @@
       <div class="container">
         <h2>Installation</h2>
 
-        Before getting started make sure you have all the dependencies you'll need.
-
-        <ul class="list-group">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Morbi leo risus</li>
-          <li class="list-group-item">Porta ac consectetur ac</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-
-        <div class="container">
-          <h2>Supported OS / Language combinations</h2>
-          <p>ALthough we strive to make HDIM as platform agnostic as possible.</p>
-          <table class="table table-hover">
-            <thead>
-              <tr>
-                <th>OS</th>
-                <th>Supported Languages</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Linux</td>
-                <td>C++, R, Python, JavaScript</td>
-              </tr>
-              <tr>
-                <td>Mac</td>
-                <td>C++, Python, JavaScript</td>
-              </tr>
-              <tr>
-                <td>Windows</td>
-                <td>C++, R, JavaScript</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
         <div id="accordion" role="tablist" aria-multiselectable="true">
+
+          <div class="card">
+            <div class="card-header" role="tab" id="headingZero">
+              <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseZero" aria-expanded="false" aria-controls="collapseZero">
+                  Supported OS / Language combinations
+                </a>
+              </h5>
+            </div>
+            <div id="collapseZero" class="collapse" role="tabpanel" aria-labelledby="headingZero">
+              <div class="card-block">
+
+                <div class="container">
+                  <h2>Supported OS / Language combinations</h2>
+                  <p>The following combinations of implementation languages are OS's are supported.</p>
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th>OS</th>
+                        <th>Supported Languages</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Linux</td>
+                        <td>C++, R, Python, JavaScript</td>
+                      </tr>
+                      <tr>
+                        <td>Mac</td>
+                        <td>C++, Python, JavaScript</td>
+                      </tr>
+                      <tr>
+                        <td>Windows</td>
+                        <td>C++, R, JavaScript</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
           <div class="card">
             <div class="card-header" role="tab" id="headingOne">
               <h5 class="mb-0">
@@ -344,8 +350,47 @@
               </h5>
             </div>
 
-            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+            <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
               <div class="card-block">
+                <div class="container">
+                  <h3>C++</h3>
+
+                  The HDIM package is provided as a <b>header only</b> library, so there
+                  is no installation step in the traditional sense.
+
+                  <h3>Python</h3>
+
+                  Dependencies:
+
+                  <ul class="list-group">
+                    <li class="list-group-item"><a href="http://www.swig.org/download.html">SWIG The Simplified Wrapper and Interface Generator</a></li>
+                    <li class="list-group-item"><a>Python Development Headers</a></li>
+                    <li class="list-group-item"><a>Numpy, including Development Headers<a></li>
+                    <li class="list-group-item"><a href="http://eigen.tuxfamily.org/index.php">Eigen 3 A C++ template library for linear algebra</a></li>
+                  </ul>
+
+                  <ul>
+                    <li>Clone the HDIM package into a convenient location.</li>
+                    <li>Navigate to <code>$PKG_DIR/Python_Wrapper</code>, where PKG_DIR is the root directory of the cloned repository.</li>
+                    <li>Find the file `nix_build.sh` and mark it as executable ( <code>chmod +x ./nix_build.sh</code> ).</li>
+                    <li>The Python package path will <b>not</b> be updated.</li>
+                  </ul>
+
+                  <h3>R</h3>
+
+                  Dependencies:
+
+                  <ul class="list-group">
+                    <li class="list-group-item"><a href="https://cran.r-project.org/web/packages/Rcpp/index.html">Rcpp</a></li>
+                  </ul>
+
+                  <ul>
+                    <li>Clone the HDIM package into a convenient location.</li>
+                    <li>Navigate to <code>$PKG_DIR/Python_Wrapper</code>, where PKG_DIR is the root directory of the cloned repository.</li>
+                    <li>Find the file <code>nix_build.sh</code> and mark it as executable ( <code>chmod +x ./nix_build.sh</code> ).</li>
+                    <li>This will run a preprocessing step using Rcpp then build and install the R Wrapper.</li>
+                  </ul>
+                </div>
 
               </div>
             </div>
@@ -360,7 +405,30 @@
             </div>
             <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
               <div class="card-block">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                <div class="container">
+
+                  <h3>Python</h3>
+
+                  Dependencies:
+
+                  <ul class="list-group">
+                    <li class="list-group-item"><a href="http://www.swig.org/download.html">SWIG The Simplified Wrapper and Interface Generator</a></li>
+                    <li class="list-group-item"><a>Python Development Headers</a></li>
+                    <li class="list-group-item"><a>Numpy, including Development Headers<a></li>
+                    <li class="list-group-item"><a href="http://eigen.tuxfamily.org/index.php">Eigen 3 A C++ template library for linear algebra</a></li>
+                    <li class="list-group-item"><a>gcc -- installation will not work with the default C++ complier, clang</a></li>
+
+                  </ul>
+
+                  <ul>
+                    <li>Clone the HDIM package into a convenient location.</li>
+                    <li>Navigate to <code>$PKG_DIR/Python_Wrapper</code>, where PKG_DIR is the root directory of the cloned repository.</li>
+                    <li>Find the file <code>os_x_build.sh</code> and mark it as executable ( <code>chmod +x ./os_x_build.sh</code> ).</li>
+                    <li>The Python package path will <b>not</b> be updated.</li>
+                  </ul>
+
+                </div>
+
               </div>
             </div>
           </div>
@@ -374,7 +442,28 @@
             </div>
             <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="card-block">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                <div class="container">
+
+                  Installation under Windows <b>requires</b> that the root directory of the Eigen3 library
+                  be located in the same directory as the root of the HDIM package.
+
+                  <h3>R</h3>
+
+                  Dependencies:
+
+                  <ul class="list-group">
+                    <li class="list-group-item"><a href="https://cran.r-project.org/bin/windows/Rtools/">Rtools</a></li>
+                    <li class="list-group-item"><a href="https://cran.r-project.org/web/packages/Rcpp/index.html">Rcpp</a></li>
+                  </ul>
+
+                  <ul>
+                    <li>Clone the HDIM package into a convenient location.</li>
+                    <li>Navigate to <code>$PKG_DIR/Python_Wrapper</code>, where PKG_DIR is the root directory of the cloned repository.</li>
+                    <li>Find the file <code>win_build.ps1</code> and run it using PowerShell.</li>
+                    <li>This will run a preprocessing step using Rcpp then build and install the R Wrapper.</li>
+                  </ul>
+                </div>
+
               </div>
             </div>
           </div>
