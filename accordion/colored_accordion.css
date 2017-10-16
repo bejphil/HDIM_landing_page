@@ -1,0 +1,13 @@
+.card-header.colored {
+    background-color: #7b4397;
+    color: #b7a57a;
+}
+
+.card-header.colored:active, .card-header.colored:hover {
+    background-color: #dc2430;
+}
+
+.card-header.colored:after {
+    color: #777;
+    font-weight: bold;
+}
